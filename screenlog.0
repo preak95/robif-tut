@@ -268,3 +268,33 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 bash-3.2$ git add .
+bash-3.2$ git commit -m ""E"d"i"t"e"d" "r"e"a"d"m"e"."m"d"
+[master 5d77781] Edited readme.md
+ 2 files changed, 192 insertions(+), 1 deletion(-)
+bash-3.2$ giot[K[Kt checkout mixed-n[Kbranch
+error: Your local changes to the following files would be overwritten by checkout:
+	screenlog.0
+Please commit your changes or stash them before you switch branches.
+Aborting
+bash-3.2$ sud[K[K[Knano .gitignot[Kre
+(B)0[?1049h[1;41r[m[4l[34h[?25h[?1h=[?1h=[?1h=[39;49m[39;49m[m[H[J[0;7m  GNU nano 2.0.6                                              File: .gitignore                                                                                                  [39;83H[ New File ][1B^G[m Get Help[40;30H[0;7m^O[m WriteOut[40;59H[0;7m^R[m Read File[40;88H[0;7m^Y[m Prev Page[40;117H[0;7m^K[m Cut Text[40;146H[0;7m^C[m Cur Pos[1B[0;7m^X[m Exit[41;30H[0;7m^J[m Justify[41;59H[0;7m^W[m Where Is[41;88H[0;7m^V[m Next Page[41;117H[0;7m^U[m UnCut Text[41;146H[0;7m^T[m To Spell[38A[1;167H[0;7mModified[2B[m~/screenlog.0[36B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                                                    [40;1H Y[m Yes[K[1B[0;7m N[m No  [41;17H[0;7m^C[m Cancel[K[39;62H[0;7mFile Name to Write: .gitignore                              [1B^G[m Get Help[40;45H[0;7m^T[m To Files[40;89H[0;7mM-M[m Mac Format[40;133H[0;7mM-P[m Prepend[1B[0;7m^C[m Cancel[7C         [41;45H[0;7mM-D[m DOS Format[41;89H[0;7mM-A[m Append[41;133H[0;7mM-B[m Backup File[39;31H[39;81H[1K [0;7m[ Cancelled ][m[K[40;30H[0;7m^O[m WriteOut                  [0;7m^R[m Read File[40;88H[0;7m^Y[m Prev Page   [40;117H[0;7m^K[m Cut Text                  [0;7m^C[m Cur Pos[41;2H[0;7mX[m Exit  [41;30H[0;7m^J[m Justify                   [0;7m^W[m Where Is[41;88H[0;7m^V[m Next Page[41;117H[0;7m^U[m UnCut Text                [0;7m^T[m To Spell[3;14H[1P[1P[36B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                                                    [40;1H Y[m Yes[K[1B[0;7m N[m No  [41;17H[0;7m^C[m Cancel[K[39;62H[0;7mFile Name to Write: .gitignore                              [1B^G[m Get Help[40;45H[0;7m^T[m To Files[40;89H[0;7mM-M[m Mac Format[40;133H[0;7mM-P[m Prepend[1B[0;7m^C[m Cancel[7C         [41;45H[0;7mM-D[m DOS Format[41;89H[0;7mM-A[m Append[41;133H[0;7mM-B[m Backup File[39;31H[1B[39;49m[m[J[1;167H[0;7m        [39;80H[m[1K [0;7m[ Wrote 1 line ][m[K[41;176H[41;1H[?1049l[?1l>bash-3.2$ 
+bash-3.2$ ls
+README.md	screenlog.0
+bash-3.2$ git commit [K[K[K[K[K[K[Kstatus
+On branch master
+Your branch is ahead of 'space/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   screenlog.0[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ 
